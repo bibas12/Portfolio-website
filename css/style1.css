@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/forest.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar
+{
+    background-color:#000;
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.navbar li 
+{
+    float: right;
+}
+li a
+{
+    display: block;
+    color: #fff;
+    text-align: right;
+    padding: 14px ;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover 
+{
+    background-color: #fff;
+}
+.navbar-brand img
+{
+    height: 40px;
+    align-items: left;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.about
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 20% ;
+    font-family:  source sans Pro, sans-serif;
+}
+.details
+{
+    margin-left: 35%;
+    color: black;
+}
+.details .para
+{
+    border-left: 5px solid #2370a2;
+    padding-left: 5px;
+}
+/*editing the image used*/
+.profile-img
+{
+    height: 400px;
+    position: absolute;
+    border: 3px solid black;
+}
+p
+{
+    margin: 0;
+    padding: 0px 50 px;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+    font-family:  source sans Pro, sans-serif;
+}
+/*adding a bar to show the users skills*/
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+/*show how much skill the user has*/
+.progress-bar
+{
+    border-radius: 16px;
+    background-color: black !important;
+}
+.heading
+{
+    color: #fff;
+    font-family:  source sans Pro, sans-serif;
+}
+.resume 
+{
+    margin-top: 5%;
+    border: 5px solid #2370a2;
+    margin-left: 35%;
+    font-family: source sans Pro, sans-serif;
+    padding-left: 5px;
+}
+.contact 
+{
+    position: absolute;
+    margin-top: 7%;
+    font-size: 18px;
+    font-family:  source sans Pro, sans-serif;
+    padding-left: 5px;
+}
+.contact p
+{
+    border-left: 5px solid #2370a2;
+    padding-left: 5px;
+}
+.innerfooter
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social-links
+{
+    display: flex;
+}
+
+.social-links ul
+{
+    display:flex;
+    margin: auto;
+}
+
+.social-items
+{
+    list-style: none;
+        
+}
+.social-items a
+{
+    padding: 10px;
+    font-size: 30px;
+    color:white;
+}
+.social-links a
+{
+    padding: 1px 10px;
+    margin: auto;
+}
+
+.outer-footer
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.education 
+{
+    margin-top: 5%;
+    border: 5px solid #2370a2;
+    margin-left: 0%;
+    font-family:  source sans Pro, sans-serif;
+    padding-left: 5px;
+}
+
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width-device-width, initial-scale=1.0">
+      <meta name ="author" content="Bibas"/>
+      <meta name ="keywords" content="HTML,JS, CSS"/>
+      <meta http-equiv="refresh" content="30"/>  
+        <title>Blog</title>
+        <link rel="stylesheet" href="../css/style3.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+    </head>
+    <body>
+      <!-----Navigation bar------>
+        <section id ="user-info">
+
+            <div class="nav-bar">
+              <nav class="navbar navbar-expand-lg ">
+                  <a class="navbar-brand" href="#"> <img src="../images/Logo.jpg"> </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  
+                    <i class="fas fa-bars"></i>
+                   
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item ">
+                        <a class="nav-link" href="../html/Home.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../html/Aboutme.html">ABOUT ME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../html/Research.html">RESEARCH</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../html/Blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+            </div>
+            <!-------Contact------->
+            <div class="contact">
+                    <h2 style="color: white;">CONTACT US</h2>
+                    <p style="color: white;">I would love to respond to any queries to help
+                        you succeed. <br> free to get in touch.
+                    </p>
+                    <div class="contact-box">
+                        <div class="contact-left">
+                            <h3 style="color: white;">Sent your request</h3>
+                            <form>
+                                <div class="input-row">
+                                    <div class="input-group">
+                                        <label>Name</label>
+                                        <input type="text" placeholder="Bibas Bantawa Rai">
+
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Phone no.</label>
+                                        <input type="text" id="number" placeholder="+1 234 567 891">
+                                    </div>
+                                </div>
+                                <div class="input-row">
+                                    <div class="input-group">
+                                        <label>Email</label>
+                                        <input type="text" placeholder="bibashrai81@gmail.com">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Subject</label>
+                                        <input type="text" placeholder="Product Demo">
+                                    </div>
+                                </div>
+
+                                <label>Message</label>
+                                <textarea rows="5" placeholder="Your Message"></textarea>
+                                
+                                <button type="submit" onclick="errorMessage">SEND</button>
+                                <script>
+                                  function errorMessage() {
+                                      var error = document.getElementById("error")
+                                      if (isNaN(document.getElementById("number").value)) 
+                                      {
+                              
+                                          // Changing content and color of content
+                                          error.textContent = "Please enter a valid number"
+                                          error.style.color = "red"
+                                      } else {
+                                          error.textContent = ""
+                                      }
+                                  }
+                              </script>
+                            </form>
+
+                        </div>
+                        <div class="contact-right">
+                            <h3>Reach out</h3>
+                            <table>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>raibashib01@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone no</td>
+                                    <td>+977 9813846739</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>Lalitpur, Khumaltar</td>
+                                </tr>
+                            </table>
+                            <!------Social link icons------>
+                            <div class="social-links">
+                                <ul>
+                                  <li class="social-items"><a href="https://www.facebook.com/bibash.rai.5074" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                  <li class="social-items"><a href="https://www.instagram.com/raibashib01/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                                  <li class="social-items"><a href="https://twitter.com/raibashib01" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                              </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
+    </body>
+    <footer>
+        <div class="inner-footer">
+          <div class="outer-footer">
+            Copyright &copy; RAI
+          </div>          
+        </div>
+      </footer>
+</html>

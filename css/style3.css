@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/forest.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar
+{
+    background-color:#000;
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.navbar li 
+{
+    float: right;
+}
+li a
+{
+    display: block;
+    color: #fff;
+    text-align: right;
+    padding: 14px ;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover 
+{
+    background-color: #fff;
+}
+.navbar-brand img
+{
+    height: 40px;
+    align-items: left;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*footer of the page*/
+.outer-footer
+{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5%;
+    font-family: source sans Pro, sans-serif;
+}
+/*CONTACT*/
+.contact
+{
+    width: 80%;
+    margin: 50px auto;
+    font-family: source sans Pro, sans-serif;
+}
+.contact h2 
+{
+    padding-left: 5%;
+}
+.contact p
+{
+    padding-left: 5%;
+}
+.contact-box
+{
+    display: flex;
+}
+.contact-left
+{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    font-family: source sans Pro, sans-serif;
+}
+.contact-right
+{
+    flex-basis: 40%;
+    padding: 40px;
+    color: white;
+    background: #2370a2;
+    font-family: source sans Pro, sans-serif;
+}
+h1
+{
+    margin-bottom: 10px;
+}
+.contact p
+{
+    margin-bottom: 40px;
+}
+.input-row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group
+{
+    flex-basis: 45%;
+}
+input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+textarea
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label
+{
+    margin-bottom: 6px;
+    display: block;
+    color: white;
+}
+/*Button for sending information*/
+button
+{
+    background: #2370a2;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+/*making a table so two parts are aligned in same line*/
+tr td
+{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+/*adding social icons */
+.social-links
+{
+    display: inline-block;
+}
+
+.social-links ul
+{
+    display:inline-block;
+    padding-left: 5%;;
+}
+
+.social-items
+{
+    list-style: none;
+        
+}
+.social-items a
+{
+    padding-left: 5px;
+    font-size: 30px;
+    color:white;
+}
+.social-links a
+{
+    padding: 1px 10px;
+    margin: auto;
+}
+
